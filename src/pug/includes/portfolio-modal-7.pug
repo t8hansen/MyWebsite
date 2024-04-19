@@ -1,0 +1,26 @@
+// Portfolio Modal 7
+#portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal7', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Aurora Innovation
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/aurora.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | At Aurora, I continued to hone my software engineering skills. Built a centralized tag management application and service to allow a versioning system for the tags and labels we applied. Expanded our workflow management tool to eventually have 30 different workflows on boarded. Also went on to mentor 2 summer interns over the course of my 3 years here
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window
