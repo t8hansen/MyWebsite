@@ -4,7 +4,7 @@ This is a website about myself that I created using Bootstrap. It was a neat way
 
 Website is at thomasthansen.com
 
-Can be compiled by running npm start
+Can be compiled by running npm start to a localhost:3000
 
 Deployment Process
 
